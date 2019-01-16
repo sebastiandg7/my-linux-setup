@@ -26,8 +26,11 @@ antigen apply
 # Source ~/.profile
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 
-###-tns-completion-start-###
-if [ -f /home/sduque/.tnsrc ]; then 
-    source /home/sduque/.tnsrc 
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.zsh_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+if [ -f ~/.zsh_aliases ]; then
+    . ~/.zsh_aliases
 fi
-###-tns-completion-end-###
+

@@ -1,0 +1,2 @@
+alias cat='bat'
+alias ll='ls -lahF'
