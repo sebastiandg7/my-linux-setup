@@ -1,2 +1,4 @@
 alias cat='bat'
-alias ll='ls -lahF'
+alias ls='exa'
+alias l='ls -l'
+alias ll='ls -laF'
