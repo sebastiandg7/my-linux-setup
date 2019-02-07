@@ -305,3 +305,27 @@ bind-key -n M-Right select-pane -R
 
 # move status line to top
 #set -g status-position top
+
+# -----------------------------------------------------------------------------
+# Plugin Manager - https://github.com/tmux-plugins/tpm
+# In order to use the plugins below you need to install TPM and the plugins.
+#   Step 1) git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+#   Step 2) Reload tmux if it's already started with `r
+#   Step 3) Launch tmux and hit `I (capital i) to fetch any plugins
+# -----------------------------------------------------------------------------
+# List of plugins.
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-yank'
+
+# Settings for tmux-recurrect:
+set -g @resurrect-save-bash-history 'on'
+
+# Other examples:
+# set -g @plugin 'github_username/plugin_name'
+# set -g @plugin 'git@github.com/user/plugin'
+# set -g @plugin 'git@bitbucket.com/user/plugin'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run -b '~/.tmux/plugins/tpm/tpm'
