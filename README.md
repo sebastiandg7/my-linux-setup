@@ -12,7 +12,9 @@ My personal Linux configuration and setup
 
 ## Operating System
 [PopOS!](https://system76.com/pop)  
-![PopOS! logo](images/pop_os.png)
+<p align="center">
+  <img src="images/pop_os.png">
+</p>
 
 ## Terminal
 - Default shell: [zsh](https://github.com/zsh-users/zsh)
