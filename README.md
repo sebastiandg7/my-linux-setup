@@ -11,8 +11,8 @@ My personal Linux configuration and setup
 
 
 ## Operating System
-[PopOS!](https://system76.com/pop)
-![PopOS! logo][popos_logo]
+[PopOS!](https://system76.com/pop)  
+![PopOS! logo](images/pop_os.png)
 
 ## Terminal
 - Default shell: [zsh](https://github.com/zsh-users/zsh)
@@ -62,5 +62,3 @@ $ sudo apt install flameshot
 ## Gnome Desktop
 ## Colors
 Dark blue: ![#03357C](https://placehold.it/15/03357C/000000?text=+) `#03375C`
-
-[popos_logo]: images/pop_os.png
