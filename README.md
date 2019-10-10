@@ -12,6 +12,8 @@ My personal Linux configuration and setup
 
 ## Operating System
 [<p align="center"><img src="images/pop_os.png"></p>](https://system76.com/pop)
+### Download
+[PopOS! Home](https://system76.com/pop)
 ### Installation
 During PopOS! installation, choose advanced method and click in 'Modify partitions'. This will open GParted, I configured the partitions this way:
 
@@ -22,7 +24,7 @@ During PopOS! installation, choose advanced method and click in 'Modify partitio
 |/|root|PopOS|EXT4|Rest of the disk space|
 |/mnt/DATA|DATA|DATA|NTFS|The whole second disk (if any)|
 
-Now close GParted and tell the installation wizzard to use those partitions clickng in the colored partitions blocks and selecting how is that partition going to be used.
+Now close GParted and tell the installation wizzard to use those partitions clicking the colored blocks and selecting how is that partition going to be used.
 
 **Note:** Always enable the format option for every partition unless you are not doing a clean installation (and you know what you are doing).
 
@@ -31,7 +33,7 @@ Now close GParted and tell the installation wizzard to use those partitions clic
 - Terminal emulator: [Tilix](https://gnunn1.github.io/tilix-web)
 
 ### ZSH
-With [Oh My ZSH!](https://ohmyz.sh/) of course  
+With [Oh My ZSH!](https://ohmyz.sh) of course  
 
 #### Installation
 ```bash
@@ -52,6 +54,7 @@ $ mkdir -p ~/antigen && mv ~/antigen.zsh ~/antigen
 [~/.zshrc](https://github.com/sebastiandg7/my-linux-setup/blob/master/.zshrc)
 
 ### Tilix  
+[<p align="center"><img src="images/tilix.png"></p>](https://gnunn1.github.io/tilix-web)
 ##### Installation  
 ```bash
 $ sudo apt install tilix
@@ -60,6 +63,12 @@ $ sudo apt install tilix
 [Fira Mono Regular (Powerline pathced)](https://github.com/sebastiandg7/fonts/tree/master/FiraMono)
 #### Background
 [Pokemon Terminal](https://github.com/LazoCoder/Pokemon-Terminal)
+[<p align="center"><img src="images/pokemon_terminal.png"></p>](https://github.com/LazoCoder/Pokemon-Terminal)
+##### Installation
+```bash
+$ sudo apt install python3-pip
+$ pip3 install --user git+https://github.com/LazoCoder/Pokemon-Terminal.git
+```
 
 ### Aliases | [~/.zsh_aliases](https://github.com/sebastiandg7/dotfiles/blob/master/.zsh_aliases)
 - ls replacement: [Exa](https://the.exa.website)
