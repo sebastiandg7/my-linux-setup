@@ -55,11 +55,11 @@ $ mkdir -p ~/antigen && mv ~/antigen.zsh ~/antigen
 
 ### Tilix  
 [<p align="center"><img src="images/tilix.png"></p>](https://gnunn1.github.io/tilix-web)
-##### Installation  
+#### Installation  
 ```bash
 $ sudo apt install tilix
 ```
-##### Font
+#### Font
 [Fira Mono Regular (Powerline pathced)](https://github.com/sebastiandg7/fonts/tree/master/FiraMono)
 #### Background
 [Pokemon Terminal](https://github.com/LazoCoder/Pokemon-Terminal)
@@ -68,6 +68,13 @@ $ sudo apt install tilix
 ```bash
 $ sudo apt install python3-pip
 $ pip3 install --user git+https://github.com/LazoCoder/Pokemon-Terminal.git
+```
+
+##### Usage
+```bash
+$ pokemon arceus
+or
+$ ichooseyou lucario
 ```
 
 ### Aliases | [~/.zsh_aliases](https://github.com/sebastiandg7/dotfiles/blob/master/.zsh_aliases)
