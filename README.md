@@ -49,9 +49,10 @@ $ mkdir -p ~/antigen && mv ~/antigen.zsh ~/antigen
 ```
 #### Theme
 [Spaceship Prompt 🚀⭐](https://github.com/denysdovhan/spaceship-prompt)
+[<p align="center"><img src="images/spaceship.gif"></p>](https://github.com/denysdovhan/spaceship-prompt)
 
 #### Configuration file
-[~/.zshrc](https://github.com/sebastiandg7/my-linux-setup/blob/master/.zshrc)
+Clone the [~/.zshrc](https://github.com/sebastiandg7/my-linux-setup/blob/master/.zshrc) file into your home directory.
 
 ### Tilix  
 [<p align="center"><img src="images/tilix.png"></p>](https://gnunn1.github.io/tilix-web)
@@ -61,6 +62,8 @@ $ sudo apt install tilix
 ```
 #### Font
 [Fira Mono Regular (Powerline pathced)](https://github.com/sebastiandg7/fonts/tree/master/FiraMono)
+[<p align="center"><img src="images/tilix_font.png"></p>](https://gnunn1.github.io/tilix-web)
+**Note**: A powerline patched font is required for spaceship theme special icons to work.
 #### Background
 [Pokemon Terminal](https://github.com/LazoCoder/Pokemon-Terminal)
 [<p align="center"><img src="images/pokemon_terminal.png"></p>](https://github.com/LazoCoder/Pokemon-Terminal)
@@ -76,17 +79,27 @@ $ pokemon arceus
 or
 $ ichooseyou lucario
 ```
-
+⚠️ You need to increase the terminal transparency in the Tilix profile config in order to get the background image to be shown.  
 ### Aliases | [~/.zsh_aliases](https://github.com/sebastiandg7/dotfiles/blob/master/.zsh_aliases)
 - ls replacement: [Exa](https://the.exa.website)
 - cat replacement: [Bat 🦇](https://github.com/sharkdp/bat)
 
 ## Utilities
-- Office suite: [WPS Office 📚](http://wps-community.org) (Hate LibreOffice...)
-- Screenshots: [Flameshot 🔥](https://flameshot.js.org)
+### Office suite
+[WPS Office 📚](http://wps-community.org) (Hate LibreOffice...)
+### Screenshots
+[Flameshot 🔥](https://flameshot.js.org)
+#### Installation
 ```bash
 $ sudo apt install flameshot
 ```
+#### Setup
+WIP
 ## Gnome Desktop
+PopOS! uses the gnome as default desktop environment
+### Gnome Extensions
+WIP
+### Wallpapers
+WIP
 ## Colors
-Dark blue: ![#03357C](https://placehold.it/15/03357C/000000?text=+) `#03375C`
+Dark blue: ![#03357C](https://placehold.it/15/03357C/000000?text=+) `#03375C`  
