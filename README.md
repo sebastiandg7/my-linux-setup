@@ -11,10 +11,20 @@ My personal Linux configuration and setup
 
 
 ## Operating System
-[PopOS!](https://system76.com/pop)  
-<p align="center">
-  <img src="images/pop_os.png">
-</p>
+[<p align="center"><img src="images/pop_os.png"></p>](https://system76.com/pop)
+### Installation
+During PopOS! installation, choose advanced method and click in 'Modify partitions'. This will open GParted, I configured the partitions this way:
+
+|Pop Partition|Name|Label|Format|Size|
+|-|-|-|-|-|
+|/boot|EFI|boot|FAT32|2 GB (I mess a lot with kernels 😁) ~ 700 MB is recommended|
+|swap|N/A|swap|linux-swap|2 x Memory size (24GB for 💻 & 32 GB for 🖥️) |
+|/|root|PopOS|EXT4|Rest of the disk space|
+|/mnt/DATA|DATA|DATA|NTFS|The whole second disk (if any)|
+
+Now close GParted and tell the installation wizzard to use those partitions clickng in the colored partitions blocks and selecting how is that partition going to be used.
+
+**Note:** Always enable the format option for every partition unless you are not doing a clean installation (and you know what you are doing).
 
 ## Terminal
 - Default shell: [zsh](https://github.com/zsh-users/zsh)
