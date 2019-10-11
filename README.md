@@ -138,7 +138,7 @@ Open Settings app and go to Devices > Keyboard. The disable the default screensh
 
 <p align="center"><img src="images/popos_disable_default_print.png"></p>
 
-Then go to the bottom and create a new custom shortcut with the command `flameshot gui` and binding it to the **Print** key:
+Then go to the bottom and create a new custom shortcut with the command `flameshot gui` and bind it to the **Print** key:
 
 <p align="center"><img src="images/popos_flameshot_shortcut.png"></p>
 
@@ -159,3 +159,26 @@ WIP
 ## Colors
 
 Dark blue: ![#03357C](https://placehold.it/15/03357C/000000?text=+) `#03375C`  
+## Bonus
+
+### Easy Docker installation
+To easily install [docker](https://www.docker.com/) without messing with ppa repos or legacy docker versions, execute:
+```bash
+$ curl -o- https://get.docker.com | bash
+$ sudo usermod -aG docker $USER
+```
+
+### Easy NodeJS installation (NVM)
+
+__**Note:** NVM is automatically installed with the nvm zsh antigen plugin__
+
+[NVM (Node Version Manager)](https://github.com/nvm-sh/nvm) is a command line tool that helps you easy manage multiple node versions in your system.
+
+One of it's main benefits is you don't need to execute global npm commands with root permissions, this is due to it's user scoped node installation. To install NVM and start using it, execute:
+```bash
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
+$ nvm install 10.16.3 # Install a node version
+$ nvm use 10.16.3 # Use a node version
+$ npm i -g npm # Execute global npm installation without root permissions 
+```
+
