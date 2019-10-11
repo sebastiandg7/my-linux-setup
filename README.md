@@ -29,7 +29,7 @@ During PopOS! installation, choose advanced method and click in 'Modify partitio
 |/boot|EFI|boot|FAT32|2 GB (I mess a lot with kernels 😁) ~ 700 MB is recommended|
 |swap|N/A|swap|linux-swap|2 x Memory size (24GB for 💻 & 32 GB for 🖥️) |
 |/|root|PopOS|EXT4|Rest of the disk space|
-|/mnt/DATA|DATA|DATA|NTFS|The whole second disk (if any)|
+|/mnt/DATA (not used in installation)|DATA|DATA|NTFS|The whole second disk (if any)|
 
 Now close GParted and tell the installation wizzard to use those partitions clicking the colored blocks and selecting how is that partition going to be used.
 
@@ -146,7 +146,7 @@ Clone the [~/.zsh_aliases](https://github.com/sebastiandg7/dotfiles/blob/master/
 [WPS Office 📚](http://wps-community.org) (Best linux office suite!!!)
 [<p align="center"><img src="images/wps.png"></p>](http://wps-community.org)
 
-WPS may show you a warning because of some missing fonts. [Here you can install them](https://github.com/IamDH4/ttf-wps-fonts).
+⚠️ WPS may show you a warning because of some missing fonts. [Here you can install them](https://github.com/IamDH4/ttf-wps-fonts).
 
 ### Screenshots
 
@@ -172,9 +172,11 @@ Add it and you are done! Every time you hit the **Print** key the flameshot gui 
 
 ## Gnome Desktop
 
-PopOS! uses gnome as default desktop environment
+PopOS! uses gnome as default desktop environment, here are some useful tools to make the most out of it 🔥
 
 ### Gnome Tweaks
+
+[Gnome Tweaks](https://github.com/GNOME/gnome-tweaks) lets you modify different settings like enabling the minimize and maximize buttons for app windows, changing themes, fonts and many other things...
 
 ```shell
 $ sudo apt install gnome-tweaks
@@ -182,7 +184,24 @@ $ sudo apt install gnome-tweaks
 
 ### Gnome Extensions
 
-WIP
+Gnome Extensions can improve a lot your user experience with the gnome desktop environment. You can install them visiting this web site:
+
+https://extensions.gnome.org
+
+You need to install the gnome shell integration [Chrome extension](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep) or [Firefox Add-on](https://addons.mozilla.org/es/firefox/addon/gnome-shell-integration/) to easily (un)install the extensions. Once installed, I suggest to activate the extensions synchronization option to save them in your account.
+
+These are the most useful extensions I have tried:
+
+- [Audio Output Swithcer](https://extensions.gnome.org/extension/751/audio-output-switcher/): Switch audio output device from top menu
+- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Toggle screen timeout on/off with just a click
+- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/): Easily access your clipboard history
+- [CPU Power Manager](https://extensions.gnome.org/extension/945/cpu-power-manager/): Define and quickly change CPU performance profiles
+- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/): Get a highly customizable dock for your apps!
+- [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/): Know Capslock & Numslock status in the top bar
+- [OpenWeather](https://extensions.gnome.org/extension/750/openweather/): Know your local weather from the top bar
+- [Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/): View and eject removable drives as USB or externar disks devices
+- [Tray Icons](https://extensions.gnome.org/extension/1503/tray-icons/): Enable tray icons in the top bar. Hello again to slack, teamviewer and similar apps
+- [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Enables the option to install and use custom themes in your desktop environment
 
 ### Wallpapers
 
