@@ -46,7 +46,7 @@ With [Oh My ZSH!](https://ohmyz.sh) of course
 
 #### Installation
 
-```bash
+```shell
 $ sudo apt install zsh
 $ chsh -s $(which zsh)
 ```
@@ -55,7 +55,7 @@ $ chsh -s $(which zsh)
 
 [Antigen ⚙️](https://github.com/zsh-users/antigen)
 
-```bash
+```shell
 $ curl -L git.io/antigen > ~/antigen.zsh
 $ mkdir -p ~/antigen && mv ~/antigen.zsh ~/antigen
 ```
@@ -73,10 +73,32 @@ Clone the [~/.zshrc](https://github.com/sebastiandg7/my-linux-setup/blob/master/
 [<p align="center"><img src="images/tilix.png"></p>](https://gnunn1.github.io/tilix-web)
 
 #### Installation  
-```bash
+```shell
 $ sudo apt install tilix
 ```
 ### Set as default
+
+Execute
+
+```shell
+$ sudo update-alternatives --config x-terminal-emulator
+```
+
+And choose the tilix option
+
+```shell
+$ sudo update-alternatives --config x-terminal-emulator
+[sudo] password for user: 
+There are 2 choices for the alternative x-terminal-emulator (providing /usr/bin/x-terminal-emulator).
+
+  Selection    Path                             Priority   Status
+------------------------------------------------------------
+  0            /usr/bin/gnome-terminal.wrapper   40        auto mode
+  1            /usr/bin/gnome-terminal.wrapper   40        manual mode
+* 2            /usr/bin/tilix.wrapper            30        manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 2
+```
 
 #### Font
 
@@ -93,14 +115,14 @@ $ sudo apt install tilix
 
 ##### Installation
 
-```bash
+```shell
 $ sudo apt install python3-pip
 $ pip3 install --user git+https://github.com/LazoCoder/Pokemon-Terminal.git
 ```
 
 ##### Usage
 
-```bash
+```shell
 $ pokemon arceus
 or
 $ ichooseyou lucario
@@ -121,15 +143,19 @@ Clone the [~/.zsh_aliases](https://github.com/sebastiandg7/dotfiles/blob/master/
 
 ### Office suite
 
-[WPS Office 📚](http://wps-community.org) (Hate LibreOffice...)
+[WPS Office 📚](http://wps-community.org) (Best linux office suite!!!)
+[<p align="center"><img src="images/wps.png"></p>](http://wps-community.org)
+
+WPS may show you a warning because of some missing fonts. [Here you can install them](https://github.com/IamDH4/ttf-wps-fonts).
 
 ### Screenshots
 
 [Flameshot 🔥](https://flameshot.js.org)
+[<p align="center"><img src="images/flameshot.png"></p>](https://flameshot.js.org)
 
 #### Installation
 
-```bash
+```shell
 $ sudo apt install flameshot
 ```
 #### Setup
@@ -169,7 +195,7 @@ Dark blue: ![#03357C](https://placehold.it/15/03357C/000000?text=+) `#03375C`
 
 ### Easy Docker installation
 To easily install [docker](https://www.docker.com/) without messing with ppa repos or legacy docker versions, execute:
-```bash
+```shell
 $ curl -o- https://get.docker.com | bash
 $ sudo usermod -aG docker $USER
 ```
@@ -181,7 +207,7 @@ __**Note:** NVM is automatically installed with the nvm zsh antigen plugin__
 [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm) is a command line tool that helps you easy manage multiple node versions in your system.
 
 One of it's main benefits is you don't need to execute global npm commands with root permissions, this is due to it's user scoped node installation. To install NVM and start using it, execute:
-```bash
+```shell
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
 $ nvm install 10.16.3 # Install a node version
 $ nvm use 10.16.3 # Use a node version
