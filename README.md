@@ -148,6 +148,12 @@ Add it and you are done! Every time you hit the **Print** key the flameshot gui 
 
 PopOS! uses gnome as default desktop environment
 
+### Gnome Tweaks
+
+```shell
+$ sudo apt install gnome-tweaks
+```
+
 ### Gnome Extensions
 
 WIP
