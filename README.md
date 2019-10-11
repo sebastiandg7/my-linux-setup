@@ -203,10 +203,6 @@ These are the most useful extensions I have tried:
 - [Tray Icons](https://extensions.gnome.org/extension/1503/tray-icons/): Enable tray icons in the top bar. Hello again to slack, teamviewer and similar apps
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Enables the option to install and use custom themes in your desktop environment
 
-### Wallpapers
-
-WIP
-
 ## Colors
 
 Dark blue: ![#03357C](https://placehold.it/15/03357C/000000?text=+) `#03375C`  
