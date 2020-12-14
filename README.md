@@ -7,10 +7,10 @@ My personal Linux configuration and setup
 
 ||Laptop 💻|Desktop 🖥️|
 |-|-|-|
-|CPU|[Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz](https://www.intel.com/content/www/us/en/products/processors/core/i7-processors/i7-5500u.html)|Intel(R) Core(TM) i7 ...|
-|Memory|12 GB DDR3|16 GB DDR4|
-|Storage|[Samsung Evo 500 GB SSD](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-860-evo-2-5--sata-iii-500gb-mz-76e500b-am/) + 1 TB HDD|500 GB SSD|
-|GPU|[Nvidia GeForce 940M GM108M](https://www.geforce.com/hardware/notebook-gpus/geforce-940m)|[AMD Raedon RX 550](https://www.amd.com/en/products/graphics/radeon-rx-550)|
+|CPU|[Intel i7-10875H @ 5.100GHz](https://www.intel.com/content/www/us/en/products/processors/core/i7-processors/i7-5500u.html)|Intel(R) i7 ...|
+|Memory|32 GB DDR4|16 GB DDR4|
+|Storage|[Samsung Evo SSD 1TB ](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-evo-nvme-m-2-1tb-mz-v7e1t0bw/) + 1TB|500 GB SSD|
+|GPU|[NVIDIA GeForce RTX 2060](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2060/)|[AMD Raedon RX 550](https://www.amd.com/en/products/graphics/radeon-rx-550)|
 
 ## Operating System
 
