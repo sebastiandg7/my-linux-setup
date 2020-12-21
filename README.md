@@ -7,9 +7,9 @@ My personal Linux configuration and setup
 
 ||Laptop 💻|Desktop 🖥️|
 |-|-|-|
-|CPU|[Intel i7-10875H @ 5.100GHz](https://www.intel.com/content/www/us/en/products/processors/core/i7-processors/i7-5500u.html)|Intel(R) i7 ...|
+|CPU|[Intel i7-10875H @ 5.100GHz](https://www.intel.com/content/www/us/en/products/processors/core/i7-processors/i7-5500u.html)|Intel(R) i7 7700|
 |Memory|32 GB DDR4|16 GB DDR4|
-|Storage|[Samsung Evo SSD 1TB ](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-evo-nvme-m-2-1tb-mz-v7e1t0bw/) + 1TB|500 GB SSD|
+|Storage|[Samsung Evo SSD 1TB ](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-evo-nvme-m-2-1tb-mz-v7e1t0bw/) x2|500 GB SSD|
 |GPU|[NVIDIA GeForce RTX 2060](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2060/)|[AMD Raedon RX 550](https://www.amd.com/en/products/graphics/radeon-rx-550)|
 
 ## Operating System
