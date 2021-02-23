@@ -27,7 +27,7 @@ During PopOS! installation, choose advanced method and click in 'Modify partitio
 |Pop Partition|Name|Label|Format|Size|
 |-|-|-|-|-|
 |/boot|EFI|boot|FAT32|2 GB (I mess a lot with kernels 😁) ~ 700 MB is recommended|
-|swap|N/A|swap|linux-swap|2 x Memory size (24GB for 💻 & 32 GB for 🖥️) |
+|swap|N/A|swap|linux-swap|2 x Memory size (64GB for 💻 & 32 GB for 🖥️) |
 |/|root|PopOS|EXT4|Rest of the disk space|
 |/mnt/DATA (not used in installation)|DATA|DATA|NTFS|The whole second disk (if any)|
 
