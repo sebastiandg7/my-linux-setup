@@ -47,8 +47,8 @@ With [Oh My ZSH!](https://ohmyz.sh) of course
 #### Installation
 
 ```shell
-$ sudo apt install zsh
-$ chsh -s $(which zsh)
+ sudo apt install zsh
+ chsh -s $(which zsh)
 ```
 
 #### Plugin manager
@@ -56,8 +56,8 @@ $ chsh -s $(which zsh)
 [Antigen ⚙️](https://github.com/zsh-users/antigen)
 
 ```shell
-$ curl -L git.io/antigen > ~/antigen.zsh
-$ mkdir -p ~/antigen && mv ~/antigen.zsh ~/antigen
+ curl -L git.io/antigen > ~/antigen.zsh
+ mkdir -p ~/antigen && mv ~/antigen.zsh ~/antigen
 ```
 #### Theme
 
@@ -74,20 +74,20 @@ Clone the [~/.zshrc](https://github.com/sebastiandg7/my-linux-setup/blob/master/
 
 #### Installation  
 ```shell
-$ sudo apt install tilix
+ sudo apt install tilix
 ```
 ### Set as default
 
 Execute
 
 ```shell
-$ sudo update-alternatives --config x-terminal-emulator
+ sudo update-alternatives --config x-terminal-emulator
 ```
 
 And choose the tilix option
 
 ```shell
-$ sudo update-alternatives --config x-terminal-emulator
+ sudo update-alternatives --config x-terminal-emulator
 [sudo] password for user: 
 There are 2 choices for the alternative x-terminal-emulator (providing /usr/bin/x-terminal-emulator).
 
@@ -116,16 +116,16 @@ Press <enter> to keep the current choice[*], or type selection number: 2
 ##### Installation
 
 ```shell
-$ sudo apt install python3-pip
-$ pip3 install --user git+https://github.com/LazoCoder/Pokemon-Terminal.git
+ sudo apt install python3-pip
+ pip3 install --user git+https://github.com/LazoCoder/Pokemon-Terminal.git
 ```
 
 ##### Usage
 
 ```shell
-$ pokemon arceus
+ pokemon arceus
 or
-$ ichooseyou lucario
+ ichooseyou lucario
 ```
 
 ⚠️ You need to increase the terminal transparency in the Tilix profile config in order to get the background image to be shown.
@@ -156,7 +156,7 @@ Clone the [~/.zsh_aliases](https://github.com/sebastiandg7/dotfiles/blob/master/
 #### Installation
 
 ```shell
-$ sudo apt install flameshot
+ sudo apt install flameshot
 ```
 #### Setup
 
@@ -179,7 +179,7 @@ PopOS! uses gnome as default desktop environment, here are some useful tools to 
 [Gnome Tweaks](https://github.com/GNOME/gnome-tweaks) lets you modify different settings like enabling the minimize and maximize buttons for app windows, changing themes, fonts and many other things...
 
 ```shell
-$ sudo apt install gnome-tweaks
+ sudo apt install gnome-tweaks
 ```
 
 ### Gnome Extensions
@@ -211,8 +211,8 @@ Dark blue: ![#03357C](https://placehold.it/15/03357C/000000?text=+) `#03375C`
 ### Easy Docker installation
 To easily install [docker](https://www.docker.com/) without messing with ppa repos or legacy docker versions, execute:
 ```shell
-$ curl -o- https://get.docker.com | bash
-$ sudo usermod -aG docker $USER
+ curl -o- https://get.docker.com | bash
+ sudo usermod -aG docker $USER
 ```
 
 ### Easy NodeJS installation (NVM)
@@ -223,9 +223,9 @@ __**Note:** NVM is automatically installed with the nvm zsh antigen plugin__
 
 One of it's main benefits is you don't need to execute global npm commands with root permissions, this is due to it's user scoped node installation. To install NVM and start using it, execute:
 ```shell
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
-$ nvm install 10.16.3 # Install a node version
-$ nvm use 10.16.3 # Use a node version
-$ npm i -g npm # Execute global npm installation without root permissions 
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
+ nvm install 10.16.3 # Install a node version
+ nvm use 10.16.3 # Use a node version
+ npm i -g npm # Execute global npm installation without root permissions 
 ```
 
